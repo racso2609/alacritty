@@ -1,78 +1,80 @@
+items:
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: "#090300"
+        foreground: "#a5a2a2"
+      cursor:
+        text: "#090300"
+        cursor: "#a5a2a2"
+      normal:
+        black: "#090300"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#a5a2a2"
+      bright:
+        black: "#5c5855"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#f7f7f7"
+  - theme: 3024.dark
 colors:
-  # Default colors
+  name: Atelierforest (dark)
+  author: Chris Kempson
   primary:
-    background: '0x212121'
-    foreground: '0xc5c9de'
-
-  # Normal colors
+    background: "#1b1918"
+    foreground: "#a8a19f"
+  cursor:
+    text: "#1b1918"
+    cursor: "#a8a19f"
   normal:
-    black:   '0x181a29'
-    red:     '0xF07178'
-    green:   '0xcdea9f'
-    yellow:  '0xffd47e'
-    blue:    '0x93bbff'
-    magenta: '0xd3a7ee'
-    cyan:    '0x98e4ff'
-    white:   '0xbfd5de'
-
-  # Bright colors
+    black: "#1b1918"
+    red: "#f22c40"
+    green: "#5ab738"
+    yellow: "#d5911a"
+    blue: "#407ee7"
+    magenta: "#6666ea"
+    cyan: "#00ad9c"
+    white: "#a8a19f"
   bright:
-    black:   '0x282a40'
-    red:     '0xeb7f84'
-    green:   '0xe0ffad'
-    yellow:  '0xffee7e'
-    blue:    '0xa3c5ff'
-    magenta: '0xd6afed'
-    cyan:    '0x98fffd'
-    white:   '0xd1e5ed'
-
+    black: "#766e6b"
+    red: "#f22c40"
+    green: "#5ab738"
+    yellow: "#d5911a"
+    blue: "#407ee7"
+    magenta: "#6666ea"
+    cyan: "#00ad9c"
+    white: "#f1efee"
+theme: Atelierforest.dark
 font:
-  bold:
-    #family: Sans
-    # family: mononoki Nerd Font
-    # family: agave Nerd Font
-    #family: CaskaydiaCove Nerd Font 
-    family: FantasqueSansMono NF
-     #family: JetBrains Mono ExtraBold Nerd Font 
-    # family: Hurmit Nerd Font Mono
-    # family: DaddyTimeMono Nerd Font
-    # family: Iosevka NF
-    # family: Hack NF
-     #family: SpaceMono NF
-  italic:
-    #family: Sans
-    # family: mononoki Nerd Font
-    # family: agave Nerd Font
-    #family: Caskaydia Cove Nerd Font Mono
-    #family: CaskaydiaCove Nerd Font 
-    #family: CaskaydiaCove Nerd Font
-    family: FantasqueSansMono NF
-    # family: JetBrains Mono Medium Nerd Font
-    # family: Hurmit Nerd Font Mono
-    # family: DaddyTimeMono Nerd Font
-    # family: Iosevka NF
-    # family: Hack NF
-    # family: SpaceMono NF
   normal:
-    #family: Sans
-    # family: mononoki Nerd Font
-    # family: agave Nerd Font
-    #family: Caskaydia Cove Nerd Font Mono
-    #family: CaskaydiaCove Nerd Font 
+    family: Caskaydia Cove Nerd Font
+    #family: CaskaydiaCove Nerd Font Mono
     # family: JetBrains Mono Medium Nerd Font
     #family: Fira Code
-    family: FantasqueSansMono NF
-    style: bold
+    #family: FantasqueSansMono NF
+    # style: bold
     # family: Hurmit Nerd Font Mono
     # family: DaddyTimeMono Nerd Font
     # family: Iosevka NF
     # family: Hack NF
     # family: SpaceMono NF
     #style: Regular
-  size: 9
+  size: 5
   offset:
-        x: 0
-        y: 1
+    x: 0
+    y: 1
+
+
 
 window:
   padding:
@@ -84,5 +86,4 @@ window:
 
 key_bindings:
   - { key: N, mods: Control, action: SpawnNewInstance }
-
-background_opacity: 0.78
+# background_opacity: 0.9
